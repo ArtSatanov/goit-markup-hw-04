@@ -190,6 +190,22 @@ img {
   text-align: center;
   background-color: var(--dark-color);
   padding: 188px 0;
+
+}
+.overlay {
+  background-image: linear-gradient( 
+    to right,
+  rgba(46, 47, 66, 0.7),
+  rgba(46, 47, 66, 0.7)),
+  url(../images/hero/people_office.jpg);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1440px;
+    min-height: 480px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-title {
