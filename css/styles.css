@@ -245,6 +245,7 @@ img {
 
 .features-list {
   display: flex;
+  flex-wrap: wrap;
   gap: var(--gap-team-card);
 }
 
@@ -262,8 +263,9 @@ img {
 
 .features-icon-bg {
   display: flex;
-  align-content: center;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
   border-radius: 4px;
   background: var(--light-bg-color);
   height: 112px;
