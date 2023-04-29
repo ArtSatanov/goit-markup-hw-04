@@ -245,7 +245,6 @@ img {
 
 .features-list {
   display: flex;
-
   gap: var(--gap-team-card);
 }
 
