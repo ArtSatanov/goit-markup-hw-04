@@ -380,22 +380,26 @@ img {
 .social-list {}
 
 .social-item {
+  display: flex;
   border: 1px solid var(--primary-brand-color);
   width: 40px;
   height: 40px;
-  padding: 8px 8px;
   border-radius: 50%;
   background-color: var(--primary-brand-color);
+  justify-content: center;
+  align-items: center;
 }
 
 .social-link {
-
+width: 24px;
+  height: 24px;
 }
 
+
 .social-icon {
-  
-  width: 24px;
-  height: 24px;
+  margin: 0;
+  width: inherit;
+  height: inherit;
 }
 
 /* main - portfolio */
