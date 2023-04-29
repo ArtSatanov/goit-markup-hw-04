@@ -356,15 +356,46 @@ img {
   background-color: var(--dark-color);
 }
 
+.footer-flex {
+  display: flex;
+  gap: 120px
+}
+
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
 }
 
 .footer-desc {
-  margin-top: 16px;
   width: 264px;
   color: var(--light-bg-color);
+}
+
+.social-title {
+  text-align: left;
+  color: var(--bg-color);
+  margin-bottom: 16px;
+}
+
+.social-list {}
+
+.social-item {
+  border: 1px solid var(--primary-brand-color);
+  width: 40px;
+  height: 40px;
+  padding: 8px 8px;
+  border-radius: 50%;
+  background-color: var(--primary-brand-color);
+}
+
+.social-link {
+
+}
+
+.social-icon {
+  
+  width: 24px;
+  height: 24px;
 }
 
 /* main - portfolio */
