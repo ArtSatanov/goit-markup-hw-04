@@ -320,6 +320,35 @@ img {
   text-align: center;
 }
 
+/* Customers */
+
+.customers {
+  padding-bottom: 0;
+}
+
+.cust-title {
+  margin-bottom: 72px;
+}
+.cust-list {
+}
+.list {
+  display: flex;
+  gap: 24px;
+  margin: 0 auto;
+}
+.cust-list-item {
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8E8F99;
+  border-radius: 4px;
+  padding: 16px 32px;
+  margin-bottom: 115px;
+}
+.cust-icon {
+  width: 104px;
+  height: 56px;
+}
+
 /* Footer */
 
 .footer {
