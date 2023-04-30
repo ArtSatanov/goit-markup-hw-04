@@ -427,8 +427,7 @@ color: var(--help-text-colore);
 .social-title {
   text-align: left;
   margin-bottom: 16px;
-
-  color: var(--bg-color);
+    color: var(--bg-color);
   
 }
 
