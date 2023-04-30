@@ -426,11 +426,15 @@ color: var(--help-text-colore);
 
 .social-title {
   text-align: left;
-  color: var(--bg-color);
   margin-bottom: 16px;
+
+  color: var(--bg-color);
+  
 }
 
 .social-list {
+  display: flex;
+  gap: 16px;
 }
 
 .social-item {
@@ -440,6 +444,13 @@ color: var(--help-text-colore);
 }
 
 .social-link {
+  display: flex;
+  background-color: var(--primary-brand-color);
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 
 }
 
