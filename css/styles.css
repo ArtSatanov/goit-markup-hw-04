@@ -418,13 +418,12 @@ color: var(--help-text-color);
 .footer > .container {
   display: flex;
   align-items: baseline;
-  gap: 120px;
 }  
 
 .footer-logo {
   display: inline-block;
   margin-bottom: 16px;
-  
+  margin-right: 120px;  
 }
 
 .footer-desc {
